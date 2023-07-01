@@ -10,6 +10,6 @@ app.get("/", (req, res) =>{
     res.sendFile("public/index.html");
 })
 
-app.listen(port, () =>{
+app.listen(port, "127.0.0.1", () =>{
     console.log("server running");
 });
