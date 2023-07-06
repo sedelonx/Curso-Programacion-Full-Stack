@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "joi": "^17.9.2",
     "readline-sync": "^1.4.10"
   }
 }
